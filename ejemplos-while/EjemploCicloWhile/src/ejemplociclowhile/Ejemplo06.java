@@ -28,12 +28,13 @@ public class Ejemplo06 {
         boolean bandera = true;
 
         System.out.println("Ingrese las notas de los estudiantes de su materia");
-        // true 
-        while (bandera) {
+        // true
+        // while (bandera) {
+        while (bandera == true) {
             System.out.println("Ingrese calificación");
             calificacion = entrada.nextDouble();
 
-            if (calificacion > 20) {
+            if (calificacion > 20) { // Si es menor a 20 
                 calificacion = 20;
             }
             suma_total = suma_total + calificacion;
